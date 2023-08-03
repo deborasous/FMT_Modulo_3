@@ -1,4 +1,3 @@
-//refatoração com princípios de Clean code e boas práticas
 function ePrimo(numero) {
   if (numero < 2) return false;
   for (let i = 2; i <= Math.sqrt(numero); i++) {
