@@ -1,9 +1,12 @@
 //Aplicando conceitos de SOLID
+
 class Forma {
   constructor(tipo, medidas) {
     this.tipo = tipo;
     this.medidas = medidas;
   }
+
+  calcular() {}
 }
 
 class CalculadoraGeometrica {
